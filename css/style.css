@@ -193,14 +193,14 @@ body.dark {
 #inicio .row .text_content .text-1 {
   font-weight: 650;
   font-size: 27px;
-  color: #b3b3b3;
+  color: #d3d3d3;
 }
 
 #inicio .row .text_content .text-2 {
   font-size: 70px;
   font-weight: 600;
   margin-left: -3px;
-  color: #b6b6b6;
+  color: #dbdbdb;
 }
 
 #inicio .row .text_content .text-3 {
@@ -208,7 +208,7 @@ body.dark {
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
   margin: 5px 0;
-  color: #adadad;
+  color: #cecbcb;
 }
 
 #inicio .row .text_content .text-3 span {
@@ -240,7 +240,6 @@ body.dark {
   }
   #inicio .row .text_content .text-2 {
     font-size: 30px;
-    color: #ff0000;
   }
   #inicio .row .text_content .text-3 {
     font-size: 29px;
@@ -366,6 +365,12 @@ body.dark #about .title::after {
 
 #about .row .column_right a {
   border-radius: 20px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 900px) {
+  #about {
+    position: relative;
+  }
 }
 
 /*
