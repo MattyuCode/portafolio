@@ -245,7 +245,39 @@ body {
 }
 
 //-------------------edia Query------------
-@media screen and (min-width:600px) {
+
+@media screen and (min-width:300px) and (max-width:540px) {
+    #inicio {
+        .row {
+            padding-top: 60px;
+            padding-bottom: 80px;
+
+            .text_content {
+                line-height: 53px;
+
+                .text-2 {
+                    font-size: 30px;
+                    // color: #ff0000;
+                }
+
+                .text-3 {
+                    font-size: 29px;
+                    margin: 5px 0;
+                }
+            }
+
+            .fa-chevron-down {
+                margin-top: 90%;
+                // margin-left: 50%;
+                padding: 0%;
+                font-size: 50px;
+                // color: #868686;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:600px) and(min-width:900px) {
     #inicio {
         .row {
             padding-top: 60px;
@@ -256,7 +288,7 @@ body {
 
                 .text-2 {
                     font-size: 60px;
-                    // color: #00ff00;
+                    // color: #33ff00;
                 }
             }
 
@@ -270,50 +302,6 @@ body {
         }
     }
 }
-
-
-
-@media screen and (min-width:390px) and (max-width:540px) {
-    #inicio {
-        .row {
-            padding-bottom: 84px;
-
-            .text_content {
-                line-height: 53px;
-
-                .text-2 {
-                    font-size: 40px;
-                    // color: #00ff00;
-                }
-            }
-
-            .fa-chevron-down {
-                margin-top: 90%;
-                // margin-left: 50%;
-                padding: 0%;
-                font-size: 50px;
-                // color: #868686;
-            }
-        }
-    }
-}
-
-
-
-// @media (max-width:480px) {
-//     .text_content {
-//         padding: 0 20px;
-
-//         .text-2 {
-//             font-size: 10px;
-//         }
-
-//         .text-3 {
-//             font-size: 30px;
-//         }
-//     }
-
-// }
 
 /*
 --------------------------------------------------------
@@ -414,6 +402,18 @@ body {
             }
 
 
+        }
+    }
+}
+
+
+@media screen and (min-width:350px) and (max-width:540px) {
+    #about {
+        .row {
+            
+            .about_image {
+               position:relative;
+            }
         }
     }
 }
