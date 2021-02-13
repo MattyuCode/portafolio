@@ -121,14 +121,12 @@ body {
 }
 
 .top-nav-collapse {
-    // background: linear-gradient(to right, #020102, #100333);
     background: linear-gradient(left, rgb(2, 6, 29), rgb(0, 53, 70));
 
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        // background-color: transparent !important;
         background: linear-gradient(left, rgb(2, 6, 29), rgb(0, 53, 70));
     }
 }
@@ -164,7 +162,6 @@ body {
 }
 
 .btn_arriba:hover {
-    // transform: scale(0.9);
     color: black;
     background: rgb(255, 255, 255);
 }
@@ -239,9 +236,9 @@ body {
     }
 }
 
-//-------------------edia Query------------
+//-------------------Media Query------------
 
-@media screen and (min-width:300px) and (max-width:540px) {
+@media screen and (min-width:380px) and (max-width:540px) {
     #inicio {
         .row {
             padding-top: 60px;
@@ -252,7 +249,7 @@ body {
 
                 .text-2 {
                     font-size: 30px;
-                    // color: #ff0000;
+                    color: #ff0000;
                 }
 
                 .text-3 {
@@ -272,7 +269,7 @@ body {
     }
 }
 
-@media screen and (min-width:600px) and(min-width:900px) {
+@media screen and (min-width:600px) and(max-width:900px) {
     #inicio {
         .row {
             padding-top: 60px;
@@ -292,7 +289,6 @@ body {
                 // margin-left: 50%;
                 padding: 0%;
                 font-size: 50px;
-                // color: #868686;
             }
         }
     }
@@ -402,15 +398,8 @@ body {
 }
 
 
-@media screen and (min-width:350px) and (max-width:540px) {
-    #about {
-        .row {
-            
-            .about_image {
-               position:relative;
-            }
-        }
-    }
+@media screen and (min-width:760px) and(max-width:900px) {
+    #about {}
 }
 
 /*
