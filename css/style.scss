@@ -401,14 +401,11 @@ body {
 -------------------------------------------------------
 */
 
-
 #service {
     position: relative;
     height: 100%;
     padding-bottom: 10%;
     padding-top: 6%;
-    // background: $grisOscuro;
-    // background: linear-gradient(top, hsl(0, 0%, 0%), hsla(0, 0%, 20%, 0.603)), url(../img/Copia.jpg);
     background: #141E30;
     background: -webkit-linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), hsla(0, 0%, 0%, 0.5)), url(../img/Copia.jpg);
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), hsla(0, 0%, 0%, 0.473)), url(../img/Copia.jpg);
@@ -430,7 +427,6 @@ body {
     }
 
     .titulo::before {
-
         content: "";
         position: absolute;
         bottom: 0px;
@@ -442,7 +438,6 @@ body {
     }
 
     .titulo::after {
-
         content: "Lo que proporciono";
         position: absolute;
         bottom: -12px;
@@ -455,6 +450,11 @@ body {
     }
 
     .services_content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
         .card {
             width: calc(28% - 20px);
             text-align: center;
