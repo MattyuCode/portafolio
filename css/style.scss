@@ -9,6 +9,10 @@ $personalidzado:#0c132e;
 $azul: #3E60E9;
 $azulHover: #254BE6;
 $rojo:#ff0000;
+$rosado: #c40082;
+
+
+
 
 :root {
     --outer-shadow: 4px 4px 4px #d0d0d0, -4px -4px 4px #f8f8f8;
@@ -456,29 +460,67 @@ body {
         justify-content: space-between;
 
         .card {
-            width: calc(28% - 20px);
+            margin-top: 60px;
+            // margin-bottom: 40px;
+            width: calc(33% - 20px);
+            color: $blanco;
             text-align: center;
-            background: #ff0000;
-            padding: 20px 20px;
-            border-radius: 20px;
+            background: linear-gradient(to left, #005c97, #363795);
+            padding: 20px 25px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            .service_box {
+                transition: all 0.3s ease;
+            }
+
+            .fas {
+                font-size: 60px;
+                color: rgb(161, 230, 0);
+                // margin: 15px 0 20px 0;
+            }
+
+            .text_fas {
+                // color: rgb(0, 225, 255);
+                font-weight: 500;
+                font-size: 25px;
+                margin: 10px 0 7px 0;
+            }
+
+            p {
+                text-align: justify;
+                color: rgb(187, 187, 187);
+            }
+        }
+
+        .card:hover .service_box {
+            transform: scale(1.05);
         }
     }
+}
+
+@media screen and (min-width:380px) and (max-width:540px) {
+    #service {
+        .services_content {
+            .card {
+                width: calc(90% - 5px);
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width:760px) and(max-width:900px) {
+    #service {
+        .services_content {
+            .card {
+                width: calc(50% - 10px);
+                margin-bottom: 20px;
+            }
+        }
+    }
 }
