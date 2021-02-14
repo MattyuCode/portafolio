@@ -440,10 +440,58 @@ body.dark #about .title::after {
 }
 
 #service .services_content .card {
-  width: calc(28% - 20px);
+  margin-top: 60px;
+  width: calc(33% - 20px);
+  color: #FEFEFE;
   text-align: center;
-  background: #ff0000;
-  padding: 20px 20px;
-  border-radius: 20px;
+  background: -webkit-gradient(linear, right top, left top, from(#005c97), to(#363795));
+  background: linear-gradient(to left, #005c97, #363795);
+  padding: 20px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#service .services_content .card .service_box {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#service .services_content .card .fas {
+  font-size: 60px;
+  color: #a1e600;
+}
+
+#service .services_content .card .text_fas {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 10px 0 7px 0;
+}
+
+#service .services_content .card p {
+  text-align: justify;
+  color: #bbbbbb;
+}
+
+#service .services_content .card:hover .service_box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@media screen and (min-width: 380px) and (max-width: 540px) {
+  #service .services_content .card {
+    width: calc(90% - 5px);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 900px) {
+  #service .services_content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
