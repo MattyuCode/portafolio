@@ -520,10 +520,6 @@ body.dark #about .title::after {
   z-index: 100;
 }
 
-#service #porcentaje .card .text_box .porcentaje svg {
-  display: none;
-}
-
 #service #porcentaje .card .text_box .porcentaje .numero {
   position: absolute;
   top: 0;
@@ -566,9 +562,73 @@ body.dark #about .title::after {
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 15px 35px rgba(199, 199, 199, 0.411);
+          box-shadow: 0 15px 35px rgba(199, 199, 199, 0.411);
   z-index: 1;
   pointer-events: none;
+  -webkit-transition: bottom 0.5s, z-index 0s, padding 0.5s, -webkit-transform 0.5s;
+  transition: bottom 0.5s, z-index 0s, padding 0.5s, -webkit-transform 0.5s;
+  transition: bottom 0.5s, z-index 0s, transform 0.5s, padding 0.5s;
+  transition: bottom 0.5s, z-index 0s, transform 0.5s, padding 0.5s, -webkit-transform 0.5s;
+  -webkit-transition-delay: 0.5s, 0.5s, 0s, 0.5s;
+          transition-delay: 0.5s, 0.5s, 0s, 0.5s;
+  color: #fff;
+}
+
+#service #porcentaje .card:hover .text_circle {
+  -webkit-transition-delay: 0s, 0.5s, 0.5s, 0s;
+          transition-delay: 0s, 0.5s, 0.5s, 0s;
+  bottom: -70px;
+  z-index: 11;
+  -webkit-transform: translateX(-50%) translateY(-50px);
+          transform: translateX(-50%) translateY(-50px);
+  padding: 10px 20px 10px;
+}
+
+#service #porcentaje .card .html {
+  background: red;
+}
+
+#service #porcentaje .card .css {
+  background: #00d9ff;
+}
+
+#service #porcentaje .card .js {
+  background: #00ff37;
+}
+
+#service #porcentaje svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+#service #porcentaje svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke: rgba(255, 255, 255, 0.05);
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+  stroke-linecap: round;
+}
+
+#service #porcentaje svg circle:nth-child(2) {
+  stroke: #fff;
+  stroke-dasharray: 440px;
+  stroke-dashoffset: 440px;
+}
+
+#service #porcentaje .card:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440px - (440px * 90) / 100);
+}
+
+#service #porcentaje .card:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440px - (440px * 88) / 100);
+}
+
+#service #porcentaje .card:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440px - (440px * 50) / 100);
 }
 /*# sourceMappingURL=style.css.map */
