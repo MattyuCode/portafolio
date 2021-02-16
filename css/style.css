@@ -384,8 +384,8 @@ body.dark #about .title::after {
   padding-bottom: 10%;
   padding-top: 6%;
   background: #141E30;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(#22013d), to(rgba(0, 0, 0, 0.473))), url(../img/Copia.jpg);
-  background: linear-gradient(to bottom, #161616, #22013d, rgba(0, 0, 0, 0.473)), url(../img/Copia.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(#01143d), to(rgba(0, 0, 0, 0.473))), url(../img/Copia.jpg);
+  background: linear-gradient(to bottom, #161616, #01143d, rgba(0, 0, 0, 0.473)), url(../img/Copia.jpg);
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
@@ -445,10 +445,13 @@ body.dark #about .title::after {
   background: -webkit-gradient(linear, right top, left top, from(#1488cc), to(#2b32b2));
   background: linear-gradient(to left, #1488cc, #2b32b2);
   padding: 20px 25px;
-  border-radius: 15px;
+  border-radius: 10px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+  height: 300px;
 }
 
 #service .services_content .card .service_box {
