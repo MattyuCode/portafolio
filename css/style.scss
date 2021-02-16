@@ -411,8 +411,8 @@ body {
     padding-bottom: 10%;
     padding-top: 6%;
     background: #141E30;
-    background: -webkit-linear-gradient(to bottom, rgb(22, 22, 22), rgb(34, 1, 61), hsla(0, 0%, 0%, 0.5)), url(../img/Copia.jpg);
-    background: linear-gradient(to bottom, rgb(22, 22, 22), rgb(34, 1, 61), hsla(0, 0%, 0%, 0.473)), url(../img/Copia.jpg);
+    background: -webkit-linear-gradient(to bottom, rgb(22, 22, 22), rgb(1, 20, 61), hsla(0, 0%, 0%, 0.5)), url(../img/Copia.jpg);
+    background: linear-gradient(to bottom, rgb(22, 22, 22), rgb(1, 20, 61), hsla(0, 0%, 0%, 0.473)), url(../img/Copia.jpg);
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
@@ -467,9 +467,11 @@ body {
             text-align: center;
             background: linear-gradient(to left, #1488cc, #2b32b2);
             padding: 20px 25px;
-            border-radius: 15px;
+            border-radius: 10px;
             cursor: pointer;
             transition: all 0.3s ease;
+            box-shadow: 0 5px 10px rgba(255, 255, 255, .5);
+            height: 300px;
 
             .service_box {
                 transition: all 0.3s ease;
