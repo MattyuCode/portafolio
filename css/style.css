@@ -102,14 +102,14 @@ body.dark {
   color: white;
 }
 
-/* ----------------------------------------------------*/
+/* 
+----------------------------------------------------
 .navbar li.nav-item.active {
-  background: rgba(255, 0, 0, 0.685);
-  color: #FEFEFE;
+    background: rgba(255, 0, 0, 0.685);
+    color: $blanco;
 }
-
-/*
----------------------------------------------------- */
+---------------------------------------------------- 
+*/
 .navbar {
   background-color: rgba(0, 0, 0, 0.514);
 }
@@ -384,7 +384,7 @@ body.dark {
     font-size: 50px;
   }
   #inicio .row .text_content .text-3 {
-    font-size: 49px;
+    font-size: 40px;
     margin: 5px 0;
   }
   #inicio .row .fa-angle-double-down {
