@@ -289,13 +289,22 @@ body {
     }
 
     .fa-angle-double-down {
-        position: relative;
-        transform: translateY(80px) translateX(-50%);
-        margin-top: 10%;
-        left: 50%;
-        padding: 0%;
+        transform: translateY(-20px) translateX(-50%);
+        // margin-top: 10%;
+        position: absolute;
+        bottom: 50px;
+        // width: 60px;
+        // height: 60px;
+        // border: 1px solid #fff;
         font-size: 50px;
         color: #868686;
+        display: block;
+        line-height: 60px;
+        text-align: center;
+        left: 50%;
+        margin-left: -15px;
+        // border-radius: 50%;
+        -webkit-animation: scrollDown 3s ease infinite;
         animation: scrollDown 3s ease infinite;
     }
 
