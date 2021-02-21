@@ -315,16 +315,19 @@ body.dark {
 }
 
 #inicio .fa-angle-double-down {
-  position: relative;
-  -webkit-transform: translateY(80px) translateX(-50%);
-          transform: translateY(80px) translateX(-50%);
-  margin-top: 10%;
-  left: 50%;
-  padding: 0%;
+  -webkit-transform: translateY(-20px) translateX(-50%);
+          transform: translateY(-20px) translateX(-50%);
+  position: absolute;
+  bottom: 50px;
   font-size: 50px;
   color: #868686;
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  left: 50%;
+  margin-left: -15px;
   -webkit-animation: scrollDown 3s ease infinite;
-          animation: scrollDown 3s ease infinite;
+  animation: scrollDown 3s ease infinite;
 }
 
 @-webkit-keyframes scrollDown {
