@@ -92,3 +92,39 @@ if (localStorage.getItem('dark-mode') === 'true') {
     document.body.classList.remove('dark');
     btnSwitch.classList.remove('active');
 }
+
+/*
+..........................................................
+                    Portafolio_Filter
+............................................................
+*/
+
+const filterContainer = document.querySelector('.portafolio_filter'),
+    filterBnts = filterContainer.children,
+    totalFilterBtn = filterBnts.length,
+    portfolioItems = document.querySelectorAll(".portafolio_item"),
+    totalPortfolioItem = portfolioItems.length;
+
+
+for (let i = 0; i < totalFilterBtn; i++) {
+
+    filterBnts[i].addEventListener("click", function () {
+        filterContainer.querySelector(".active").classList.remove("active");
+        this.classList.add("active");
+
+        const filterValue = this.getAttribute("data-filter");
+        for (let mar = 0; mar < totalPortfolioItem; mar++) {
+            if (filterValue === portfolioItems[mar].getAttribute("data-category")) {
+                portfolioItems[mar].classList.remove("hide");
+                portfolioItems[mar].classList.add("show");
+            } else {
+                portfolioItems[mar].classList.remove("show");
+                portfolioItems[mar].classList.add("hide");
+            }
+            if (filterValue === "Todos") {
+                portfolioItems[mar].classList.remove("hide");
+                portfolioItems[mar].classList.add("show");
+            }
+        }
+    })
+}
