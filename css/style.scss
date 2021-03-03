@@ -606,7 +606,7 @@ body {
 -------------------------------------------------------
 */
 #portafolio {
-    height: 100vh;
+    height: 100%;
     padding-bottom: 10%;
     padding-top: 5%;
 
@@ -742,8 +742,6 @@ body {
         // margin-bottom: 30px;
         margin: 20px;
 
-
-
         .portafolio_info {
             position: absolute;
             left: 0;
@@ -843,5 +841,22 @@ body {
         opacity: 1;
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
+    }
+}
+
+
+/*
+--------------------------------------------------------
+                             Contact
+-------------------------------------------------------
+*/
+
+#contact {
+    height: 100%;
+    padding-top: 5%;
+    background: $grisClaro;
+
+    body.dark & {
+        background: $grisOscuro
     }
 }
