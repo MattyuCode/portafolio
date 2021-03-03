@@ -648,7 +648,7 @@ body.dark #about .title::after {
 -------------------------------------------------------
 */
 #portafolio {
-  height: 100vh;
+  height: 100%;
   padding-bottom: 10%;
   padding-top: 5%;
 }
@@ -892,5 +892,20 @@ body.dark #portafolio .portafolio_filter .filter_item.active {
   opacity: 1;
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
+}
+
+/*
+--------------------------------------------------------
+                             Contact
+-------------------------------------------------------
+*/
+#contact {
+  height: 100%;
+  padding-top: 5%;
+  background: #C8C8C8;
+}
+
+body.dark #contact {
+  background: #222222;
 }
 /*# sourceMappingURL=style.css.map */
