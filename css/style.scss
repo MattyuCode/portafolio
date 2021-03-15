@@ -737,29 +737,30 @@ body {
     }
 
     .portafolio_item {
-        flex: 0 0 33.33%;
-        max-width: 29.33%;
+        // flex: 0 0 33.33%;
+        // max-width: 29.33%;
         // margin-bottom: 30px;
-        margin: 20px;
+        // margin: 20px;
 
         .portafolio_info {
-            position: absolute;
-            left: 0;
-            top: 0;
-            background: rgba(0, 0, 0, .5);
-            height: 100%;
-            width: 100%;
-            z-index: 1;
-            padding: 30px;
-            -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease;
-            opacity: 0;
+            // position: absolute;
+            // left: 0;
+            // top: 0;
+            // // background: rgba(0, 0, 0, .5);
+            // background: transparent;
+            // height: 100%;
+            // width: 100%;
+            // z-index: 1;
+            // padding: 30px;
+            // -webkit-transition: all 0.3s ease;
+            // transition: all 0.3s ease;
+            // opacity: 0;
 
             h3 {
                 font-family: 'Courier New', Courier, monospace;
                 font-size: 18px;
                 font-weight: 700;
-                color: #fff;
+                color: rgb(255, 255, 255);
                 text-transform: capitalize;
                 -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease;
@@ -768,6 +769,7 @@ body {
                 opacity: 0;
                 bottom: 30px;
                 position: absolute;
+                left: 20px;
             }
 
             .icon {
@@ -843,6 +845,24 @@ body {
         transform: translateX(0px);
     }
 }
+
+// @media screen and (max-width:600px) {
+//     #portafolio {
+//         .porta {
+//             border: #0c132e 1px solid;
+//             // min-width: 50%;
+//             background: red;
+//             flex-wrap: wrap;
+//             max-width: 935px;
+
+
+//             .portafolio_item {
+//                 background: rgb(0, 26, 255);
+//                 max-width: 100%;
+//             }
+//         }
+//     }
+// }
 
 
 /*
