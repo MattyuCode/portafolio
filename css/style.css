@@ -786,33 +786,11 @@ body.dark #portafolio .portafolio_filter .filter_item.active {
   opacity: 1;
 }
 
-#portafolio .portafolio_item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.33%;
-          flex: 0 0 33.33%;
-  max-width: 29.33%;
-  margin: 20px;
-}
-
-#portafolio .portafolio_item .portafolio_info {
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  padding: 30px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  opacity: 0;
-}
-
 #portafolio .portafolio_item .portafolio_info h3 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: white;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -821,6 +799,7 @@ body.dark #portafolio .portafolio_filter .filter_item.active {
   opacity: 0;
   bottom: 30px;
   position: absolute;
+  left: 20px;
 }
 
 #portafolio .portafolio_item .portafolio_info .icon {
