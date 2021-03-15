@@ -1,0 +1,150 @@
+<div class="row porta">
+    <!-- Dragon Ball -->
+    <div class="portafolio_item padd-15" data-category="pagina-recien">
+        <div class="portfolio-item-inner ">
+            <div class="portfolio-img waves-effect waves-light outer-shadow">
+                <a target="_blank" href="https://dbsangular.web.app/home">
+                    <img src="./img/img3.PNG" class="img-fluid " alt="placeholder" width="550px"
+                        height="550px">
+                </a>
+            </div>
+            <div class="portafolio_info">
+                <h3>Dragon Ball</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://dbsangular.web.app/home" class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sal Negra -->
+    <div class="portafolio_item padd-15" data-category="pagina-smi">
+        <div class="portfolio-item-inner ">
+            <div class="portfolio-img waves-effect waves-light outer-shadow">
+                <img src="./img/img7.PNG" class="img-fluid" alt="placeholder" width="550px"
+                    height="550px">
+                <!-- <a target="_blank" href="https://proyect-9fd36.web.app/"> </a> -->
+            </div>
+            <div class="portafolio_info">
+                <h3>Historia de la sal</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://proyect-9fd36.web.app/" class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Apps Mattyu Android -->
+    <div class="portafolio_item padd-15" data-category="app-movil">
+        <div class="portfolio-item-inner">
+            <div class="portfolio-img waves-effect waves-light outer-shadow">
+                <img src="./img/img2.PNG" class="img-fluid" alt="placeholder" width="550px"
+                    height="550px">
+                <!-- <a target="_blank" href="https://appsmattyu.web.app/"></a> -->
+            </div>
+            <div class="portafolio_info">
+                <h3>App-Movil</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://appsmattyu.web.app/" class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Convierte tus sueños -->
+    <div class="portafolio_item padd-15" data-category="paginas-vistos">
+        <div class="portfolio-item-inner">
+            <div class="portfolio-img waves-effect waves-light  outer-shadow">
+                <img src="./img/img1.PNG" class="img-fluid" alt="placeholder" width="550px"
+                    height="550px">
+                <!-- <a target="_blank" href="https://mi-page.netlify.app/"></a> -->
+            </div>
+            <div class="portafolio_info">
+                <h3>Estilos</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://mi-page.netlify.app/" class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Spotify -->
+    <div class="portafolio_item padd-15" data-category="pagina-recien">
+        <div class="portfolio-item-inner">
+            <div class="portfolio-img waves-effect waves-light outer-shadow">
+                <img src="./img/img6.PNG" class="img-fluid" alt="placeholder" width="550px"
+                    height="550px">
+                <!-- <a target="_blank" href="https://spotify-proyect.web.app/#/home"> </a> -->
+            </div>
+            <div class="portafolio_info">
+                <h3>Music-Spotify</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://spotify-proyect.web.app/#/home"
+                        class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animate -->
+    <div class="portafolio_item padd-15" data-category="paginas-vistos">
+        <div class="portfolio-item-inner">
+            <div class="portfolio-img waves-effect waves-light  outer-shadow">
+                <img src="./img/img4.PNG" class="img-fluid" alt="placeholder" width="550px"
+                    height="550px">
+                <!-- <a target="_blank" href="https://mi-page-animation.netlify.app/"> </a> -->
+            </div>
+            <div class="portafolio_info">
+                <h3>Animación</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://mi-page-animation.netlify.app/"
+                        class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page stark -->
+    <div class="portafolio_item padd-15" data-category="paginas-vistos">
+        <div class="portfolio-item-inner">
+            <div class="portfolio-img waves-effect waves-light outer-shadow">
+                <img src="./img/img5.PNG" class="img-fluid" alt="placeholder" width="550px"
+                    height="550px">
+                <!-- <a target="_blank" href="https://mattyucode.web.app/"></a> -->
+            </div>
+            <div class="portafolio_info">
+                <h3>Primera Página</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://mattyucode.web.app/" class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="portafolio_item padd-15" data-category="pagina-recien">
+        <div class="portfolio-item-inner">
+            <div class="portfolio-img waves-effect waves-light outer-shadow">
+                <img src="./img/img8.PNG" class="img-fluid" alt="placeholder" width="550px"
+                    height="550px">
+                <!-- <a target="_blank" href="https://annymatt34.web.app/"> </a> -->
+            </div>
+            <div class="portafolio_info">
+                <h3>Galleria Personal</h3>
+                <div class="icon">
+                    <a target="_blank" href="https://annymatt34.web.app/" class="fa fa-search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
