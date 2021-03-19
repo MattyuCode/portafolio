@@ -538,7 +538,7 @@ body {
     }
 
     .titulo::after {
-        content: "Lo que proporciono";
+        content: "Lo que proporcionó";
         position: absolute;
         bottom: -12px;
         left: 50%;
@@ -846,25 +846,6 @@ body {
     }
 }
 
-// @media screen and (max-width:600px) {
-//     #portafolio {
-//         .porta {
-//             border: #0c132e 1px solid;
-//             // min-width: 50%;
-//             background: red;
-//             flex-wrap: wrap;
-//             max-width: 935px;
-
-
-//             .portafolio_item {
-//                 background: rgb(0, 26, 255);
-//                 max-width: 100%;
-//             }
-//         }
-//     }
-// }
-
-
 /*
 --------------------------------------------------------
                              Contact
@@ -872,11 +853,131 @@ body {
 */
 
 #contact {
-    height: 100%;
-    padding-top: 5%;
-    background: $grisClaro;
-
     body.dark & {
-        background: $grisOscuro
+        color: $grisClaro
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    height: 100%;
+    padding-top: 2%;
+    // background: $grisClaro;
+
+    .title {
+        text-align: center;
+        padding-bottom: 25px;
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .title::before {
+        body.dark & {
+            background: $grisClaro;
+        }
+
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        width:250px;
+        height: 3px;
+        background: #111;
+        transform: translateX(-50%);
+    }
+
+    .title::after {
+        body.dark & {
+            background: $personalidzado;
+        }
+
+        content: "Ponerse en contacto";
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        font-size: 20px;
+        padding: 8px;
+        color: crimson;
+        background: rgb(255, 255, 255);
+        transform: translateX(-50%);
+    }
+
+    .contact-content {
+        margin-top: 25px;
+
+        .conta-1 {}
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .text {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .icons {
+            margin: 10px 0;
+
+            .row {
+                display: flex;
+                height: 65px;
+                align-items: center;
+                padding-left: 20px;
+                position: relative;
+
+                i {
+                    font-size: 25px;
+                    color: crimson;
+                }
+
+                .info {
+                    margin-left: 30px;
+
+                    .head {
+                        font-weight: 600;
+                    }
+
+                    .sub-title {
+                        color: #333;
+                    }
+                }
+            }
+        }
+
+
+        .conta-2 {
+            padding-top: 20px;
+
+            form {
+                .btn {
+                    background: crimson;
+                    color: white;
+                    border-radius: 15px;
+                }
+
+                .btn:hover {
+                    background: linear-gradient(to left, rgb(20, 197, 220), rgb(5, 38, 145));
+                    color: white;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1000px) {
+
+    .conta-1,
+    .conta-2 {
+        min-width: 100%;
     }
 }
