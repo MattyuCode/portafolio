@@ -906,6 +906,7 @@ body {
 
     .contact-content {
         margin-top: 25px;
+        margin-bottom: 50px;
 
         .conta-1 {}
 
@@ -947,6 +948,10 @@ body {
                     }
 
                     .sub-title {
+                        body.dark & {
+                            color: rgb(177, 173, 173);
+                        }
+
                         color: #333;
                     }
                 }
