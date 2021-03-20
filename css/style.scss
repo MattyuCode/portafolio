@@ -599,6 +599,11 @@ body {
     }
 }
 
+@media screen and (min-width:422px) {
+    #service .titulo::after {
+        font-size: 18px;
+    }
+}
 
 /*
 --------------------------------------------------------
@@ -853,8 +858,12 @@ body {
 */
 
 #contact {
+    background: rgb(241, 241, 241);
+
     body.dark & {
-        color: $grisClaro
+        color: rgb(241, 241, 241);
+        background: rgb(82, 80, 80);
+
     }
 
     display: flex;
@@ -874,6 +883,7 @@ body {
     }
 
     .title::before {
+
         body.dark & {
             background: $grisClaro;
         }
@@ -890,7 +900,8 @@ body {
 
     .title::after {
         body.dark & {
-            background: $personalidzado;
+            background: rgb(82, 80, 80);
+            color: rgb(5, 4, 4);
         }
 
         content: "Ponerse en contacto";
@@ -900,7 +911,7 @@ body {
         font-size: 20px;
         padding: 8px;
         color: crimson;
-        background: rgb(255, 255, 255);
+        background: rgb(241, 241, 241);
         transform: translateX(-50%);
     }
 
@@ -963,6 +974,8 @@ body {
             padding-top: 20px;
 
             form {
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+
                 .btn {
                     background: crimson;
                     color: white;
@@ -995,7 +1008,11 @@ body {
 
 footer {
     padding: 20px 0 20px;
-    // background: rgb(82, 80, 80);
+    background: rgb(241, 241, 241);
+
+    body.dark & {
+        background: rgb(82, 80, 80);
+    }
 
     .social {
         justify-content: center;
@@ -1086,7 +1103,7 @@ footer {
         }
 
         .insta {
-            background: linear-gradient(30deg, yellow, red, purple, rgba(0, 0, 255, 0.61));
+            background: linear-gradient(30deg, yellow, red, purple, rgba(0, 0, 255, 0.42));
             color: #ffff;
         }
 

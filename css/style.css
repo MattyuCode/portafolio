@@ -642,6 +642,12 @@ body.dark #about .title::after {
           transform: scale(1.05);
 }
 
+@media screen and (min-width: 422px) {
+  #service .titulo::after {
+    font-size: 18px;
+  }
+}
+
 /*
 --------------------------------------------------------
                              PORTAFOLIO
@@ -879,6 +885,7 @@ body.dark #portafolio .portafolio_filter .filter_item.active {
 -------------------------------------------------------
 */
 #contact {
+  background: #f1f1f1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -896,7 +903,8 @@ body.dark #portafolio .portafolio_filter .filter_item.active {
 }
 
 body.dark #contact {
-  color: #C8C8C8;
+  color: #f1f1f1;
+  background: #525050;
 }
 
 #contact .title {
@@ -930,13 +938,14 @@ body.dark #contact .title::before {
   font-size: 20px;
   padding: 8px;
   color: crimson;
-  background: white;
+  background: #f1f1f1;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 body.dark #contact .title::after {
-  background: #0c132e;
+  background: #525050;
+  color: #050404;
 }
 
 #contact .contact-content {
@@ -1006,6 +1015,11 @@ body.dark #contact .contact-content .icons .row .info .sub-title {
   padding-top: 20px;
 }
 
+#contact .contact-content .conta-2 form {
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
 #contact .contact-content .conta-2 form .btn {
   background: crimson;
   color: white;
@@ -1033,6 +1047,11 @@ body.dark #contact .contact-content .icons .row .info .sub-title {
 */
 footer {
   padding: 20px 0 20px;
+  background: #f1f1f1;
+}
+
+body.dark footer {
+  background: #525050;
 }
 
 footer .social {
@@ -1127,7 +1146,7 @@ footer .social .tele:hover {
 }
 
 footer .social .insta {
-  background: linear-gradient(30deg, yellow, red, purple, rgba(0, 0, 255, 0.61));
+  background: linear-gradient(30deg, yellow, red, purple, rgba(0, 0, 255, 0.42));
   color: #ffff;
 }
 
