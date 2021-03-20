@@ -1151,12 +1151,17 @@ footer .social .insta {
 }
 
 footer .social .insta:hover {
+  font-size: 28px;
   background: #ffff;
   color: red;
 }
 
 footer hr {
   background: #333;
+}
+
+body.dark footer hr {
+  background: #C8C8C8;
 }
 
 footer .matt-style {
@@ -1166,8 +1171,16 @@ footer .matt-style {
   margin: 10px;
 }
 
+body.dark footer .matt-style {
+  color: #ACABAB;
+}
+
 footer .matt-style strong {
   color: crimson;
   font-size: 20px;
+}
+
+body.dark footer .matt-style strong {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

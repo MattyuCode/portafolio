@@ -1108,6 +1108,7 @@ footer {
         }
 
         .insta:hover {
+            font-size: 28px;
             background: #ffff;
             color: red;
         }
@@ -1116,15 +1117,27 @@ footer {
 
     hr {
         background: #333;
+
+        body.dark & {
+            background: $grisClaro;
+        }
     }
 
     .matt-style {
+        body.dark & {
+            color: $grisClaroHover;
+        }
+
         text-align: center;
         font-size: 15px;
         color: #333;
         margin: 10px;
 
         strong {
+            body.dark & {
+                color: black;
+            }
+
             color: crimson;
             font-size: 20px;
         }
