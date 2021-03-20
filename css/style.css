@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 :root {
   --outer-shadow: 4px 4px 4px #d0d0d0, -4px -4px 4px #f8f8f8;
   --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
@@ -911,7 +912,7 @@ body.dark #contact {
   text-align: center;
   padding-bottom: 25px;
   position: relative;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Bree Serif', serif;
 }
 
 #contact .title::before {
@@ -964,6 +965,10 @@ body.dark #contact .title::after {
           justify-content: space-between;
 }
 
+#contact .contact-content .conta-1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #contact .contact-content .text {
   font-size: 20px;
   font-weight: 600;
@@ -1001,6 +1006,7 @@ body.dark #contact .title::after {
 
 #contact .contact-content .icons .row .info .head {
   font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #contact .contact-content .icons .row .info .sub-title {
@@ -1018,6 +1024,11 @@ body.dark #contact .contact-content .icons .row .info .sub-title {
 #contact .contact-content .conta-2 form {
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#contact .contact-content .conta-2 form .h4 {
+  font-family: 'Bree Serif', serif;
+  font-size: 28px;
 }
 
 #contact .contact-content .conta-2 form .btn {

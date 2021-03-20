@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 $negro: #111111;
 $blanco: #FEFEFE;
@@ -879,7 +880,7 @@ body {
         text-align: center;
         padding-bottom: 25px;
         position: relative;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Bree Serif', serif;
     }
 
     .title::before {
@@ -919,7 +920,9 @@ body {
         margin-top: 25px;
         margin-bottom: 50px;
 
-        .conta-1 {}
+        .conta-1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
 
         display: flex;
         flex-wrap: wrap;
@@ -956,6 +959,7 @@ body {
 
                     .head {
                         font-weight: 600;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
                     }
 
                     .sub-title {
@@ -975,6 +979,11 @@ body {
 
             form {
                 box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+
+                .h4 {
+                    font-family: 'Bree Serif', serif;
+                    font-size: 28px;
+                }
 
                 .btn {
                     background: crimson;
@@ -1117,6 +1126,7 @@ footer {
 
     hr {
         background: #333;
+
         body.dark & {
             background: $grisClaro;
         }
