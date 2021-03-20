@@ -529,9 +529,12 @@ body.dark #about .title::after {
   border-radius: 20px;
 }
 
-@media screen and (min-width: 760px) and (max-width: 900px) {
-  #about {
-    position: relative;
+@media screen and (min-width: 365px) and (max-width: 765px) {
+  #about .row .column_right .btn {
+    font-size: 11px;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 
