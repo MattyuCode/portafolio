@@ -986,3 +986,130 @@ body {
         min-width: 100%;
     }
 }
+
+/*
+--------------------------------------------------------
+                             FOOTER
+-------------------------------------------------------
+*/
+
+footer {
+    padding: 20px 0 20px;
+    // background: rgb(82, 80, 80);
+
+    .social {
+        justify-content: center;
+        margin-top: 1rem;
+        padding: 0px 0 10px;
+
+        a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            height: 2.8rem;
+            width: 2.8rem;
+            border-radius: 100%;
+            line-height: 2.9rem;
+            font-size: 22px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+            transition: all 500ms ease;
+        }
+
+        /*---------------------------------------------*/
+
+        .what {
+            background: rgb(11, 179, 39);
+            color: rgb(253, 253, 253);
+        }
+
+        .what:hover {
+            font-size: 28px;
+            background: rgb(253, 253, 253);
+            color: rgb(17, 211, 50);
+        }
+
+        .git {
+            background: rgb(5, 5, 5);
+            color: rgb(253, 253, 253);
+        }
+
+        .git:hover {
+            font-size: 28px;
+            background: rgb(253, 253, 253);
+            color: rgb(5, 5, 5);
+        }
+
+        .yout {
+            background: rgb(216, 10, 10);
+            color: rgb(253, 253, 253);
+
+        }
+
+        .yout:hover {
+            font-size: 28px;
+            background: rgb(253, 253, 253);
+            color: rgb(216, 10, 10);
+        }
+
+        .face {
+            background: hsl(209deg, 90%, 27%);
+            color: rgb(255, 255, 255);
+        }
+
+        .face:hover {
+            font-size: 28px;
+            background: rgb(255, 255, 255);
+            color: hsl(209deg, 90%, 27%);
+        }
+
+        .twit {
+            background: rgb(44, 114, 243);
+            color: rgb(255, 255, 255);
+        }
+
+        .twit:hover {
+            font-size: 28px;
+            background: rgba(255, 255, 255, 0.815);
+            color: rgb(44, 114, 243);
+        }
+
+        .tele {
+            background: rgb(0, 102, 255);
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+        }
+
+        .tele:hover {
+            font-size: 28px;
+            background: rgba(255, 255, 255, 0.815);
+            color: rgb(0, 102, 255);
+        }
+
+        .insta {
+            background: linear-gradient(30deg, yellow, red, purple, rgba(0, 0, 255, 0.61));
+            color: #ffff;
+        }
+
+        .insta:hover {
+            background: #ffff;
+            color: red;
+        }
+    }
+
+
+    hr {
+        background: #333;
+    }
+
+    .matt-style {
+        text-align: center;
+        font-size: 15px;
+        color: #333;
+        margin: 10px;
+
+        strong {
+            color: crimson;
+            font-size: 20px;
+        }
+    }
+}
