@@ -1152,3 +1152,13 @@ footer {
         }
     }
 }
+
+@media screen and (min-width:390px) and (max-width:432px) {
+    #contact .title::after {
+        font-size: 15px;
+    }
+
+    #service .titulo::after {
+        font-size: 15px;
+    }
+}

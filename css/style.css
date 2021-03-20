@@ -1194,4 +1194,13 @@ footer .matt-style strong {
 body.dark footer .matt-style strong {
   color: black;
 }
+
+@media screen and (min-width: 390px) and (max-width: 432px) {
+  #contact .title::after {
+    font-size: 15px;
+  }
+  #service .titulo::after {
+    font-size: 15px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
