@@ -1197,4 +1197,10 @@ body.dark footer .matt-style strong {
     font-size: 15px;
   }
 }
+
+@media screen and (min-width: 390px) and (max-width: 430px) {
+  #about .row .column_right .animate {
+    font-size: 21px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
