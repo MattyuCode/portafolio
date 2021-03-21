@@ -557,36 +557,28 @@
                         <div class="container">
                             <form class="text-center border border-light p-5" action="#!">
                                 <p class=" text-center h4 mb-4">Contáctame</p>
-                                <input type="text" id="defaultContactFormName" class="form-control mb-4"
+
+                                <input type="text" name="nombre" id="defaultContactFormName" class="form-control mb-4" required
                                     placeholder="Nombre completo">
 
-                                <input type="email" id="defaultContactFormEmail" class="form-control mb-4"
+                                <input type="email" name="email" id="defaultContactFormEmail" class="form-control mb-4" required
                                     placeholder="Correo electronico">
 
-                                <!-- Subject -->
-                                <!-- <label>Subject</label>
+                                <!-- Asunto -->
+                                <!-- <label>Asunto</label>
                                 <select class="browser-default custom-select mb-4">
-                                    <option value="" disabled>Choose option</option>
-                                    <option value="1" selected>Feedback</option>
+                                    <option value="" disabled selected>Elige una Opción</option>
+                                    <option value="1">Feedback</option>
                                     <option value="2">Report a bug</option>
                                     <option value="3">Feature request</option>
                                     <option value="4">Feature request</option>
                                 </select> -->
 
-                                <!-- Message -->
                                 <div class="form-group">
-                                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                                        placeholder="Mensaje"></textarea>
+                                    <textarea class="form-control rounded-0" name="mensaje" id="exampleFormControlTextarea2" rows="3"
+                                        required placeholder="Mensaje"></textarea>
                                 </div>
 
-                                <!-- Copy -->
-                                <!-- <div class="custom-control custom-checkbox mb-4">
-                                    <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                                    <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of
-                                        this message</label>
-                                </div> -->
-
-                                <!-- Send button -->
                                 <button class="btn  btn-block" type="submit">Enviar</button>
                             </form>
                         </div>
