@@ -1140,17 +1140,29 @@ footer {
         }
 
         text-align: center;
-        font-size: 15px;
         color: #333;
         margin: 10px;
 
+        span {
+            font-size: 13.2px;
+        }
+
+        a {
+            color: crimson;
+            font-size: 19px;
+
+            body.dark & {
+                color: rgb(255, 255, 255);
+            }
+        }
+
         strong {
             body.dark & {
-                color: black;
+                color: rgb(255, 255, 255);
             }
 
             color: crimson;
-            font-size: 20px;
+            font-size: 17px;
         }
     }
 }

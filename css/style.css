@@ -1171,7 +1171,6 @@ body.dark footer hr {
 
 footer .matt-style {
   text-align: center;
-  font-size: 15px;
   color: #333;
   margin: 10px;
 }
@@ -1180,13 +1179,26 @@ body.dark footer .matt-style {
   color: #ACABAB;
 }
 
+footer .matt-style span {
+  font-size: 13.2px;
+}
+
+footer .matt-style a {
+  color: crimson;
+  font-size: 19px;
+}
+
+body.dark footer .matt-style a {
+  color: white;
+}
+
 footer .matt-style strong {
   color: crimson;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 body.dark footer .matt-style strong {
-  color: black;
+  color: white;
 }
 
 @media screen and (min-width: 390px) and (max-width: 432px) {
