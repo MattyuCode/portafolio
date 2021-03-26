@@ -888,7 +888,7 @@ body {
     .title::before {
 
         body.dark & {
-            background: $grisClaro;
+            background: aquamarine;
         }
 
         content: "";
@@ -904,10 +904,10 @@ body {
     .title::after {
         body.dark & {
             background: rgb(82, 80, 80);
-            color: rgb(5, 4, 4);
+            color: $grisClaro;
         }
 
-        content: "Ponerse en contacto";
+        content: "Ponte en contacto";
         position: absolute;
         bottom: -12px;
         left: 50%;

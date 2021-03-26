@@ -922,11 +922,11 @@ body.dark #contact {
 }
 
 body.dark #contact .title::before {
-  background: #C8C8C8;
+  background: aquamarine;
 }
 
 #contact .title::after {
-  content: "Ponerse en contacto";
+  content: "Ponte en contacto";
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -940,7 +940,7 @@ body.dark #contact .title::before {
 
 body.dark #contact .title::after {
   background: #525050;
-  color: #050404;
+  color: #C8C8C8;
 }
 
 #contact .contact-content {
