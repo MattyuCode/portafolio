@@ -128,10 +128,6 @@ body.dark {
 }
 
 @media only screen and (max-width: 790px) {
-  .navbar-nav .dropdown-menu {
-    position: static;
-    float: none;
-  }
   .navbar-nav .dropdown-menu .dropdown-item:hover {
     background: #43b8c7;
   }

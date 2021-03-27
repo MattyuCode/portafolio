@@ -138,8 +138,8 @@ body {
 @media only screen and (max-width: 790px) {
     .navbar-nav .dropdown-menu {
         // margin-right: -115px;
-        position: static;
-        float: none;
+        // position: static;
+        // float: none;
 
         .dropdown-item:hover {
             background: rgb(67, 184, 199);
