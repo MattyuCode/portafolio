@@ -129,7 +129,6 @@ body.dark {
 
 @media only screen and (max-width: 790px) {
   .navbar-nav .dropdown-menu {
-    margin-right: -115px;
     position: static;
     float: none;
   }
