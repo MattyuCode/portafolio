@@ -127,6 +127,14 @@ body.dark {
   }
 }
 
+@media only screen and (max-width: 790px) {
+  .navbar-nav .dropdown-menu {
+    margin-right: -94px;
+    position: static;
+    float: none;
+  }
+}
+
 /*
 -------------------------------------------------
                         Button_UP
