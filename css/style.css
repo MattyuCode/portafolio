@@ -250,6 +250,10 @@ body.dark .btn_arriba:hover {
           animation: ani01 5s linear infinite;
 }
 
+#inicio .shape-o1:hover {
+  border: 2px solid #ff0033;
+}
+
 @-webkit-keyframes cuadritos {
   0%,
   100% {
@@ -726,6 +730,11 @@ body.dark #portafolio .portafolio_title::after {
 }
 
 #portafolio .portafolio_filter .filter_item {
+  opacity: 0;
+  -webkit-animation: de_lado 0.5s linear forwards;
+          animation: de_lado 0.5s linear forwards;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
   display: inline-block;
   margin: 0 5px 10px;
   padding: 5px 10px;
@@ -735,6 +744,32 @@ body.dark #portafolio .portafolio_title::after {
   font-size: 16px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+@-webkit-keyframes de_lado {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes de_lado {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 body.dark #portafolio .portafolio_filter .filter_item {
@@ -791,6 +826,40 @@ body.dark #portafolio .portafolio_filter .filter_item.active {
 
 #portafolio .portfolio-item-inner:hover .portafolio_info {
   opacity: 1;
+}
+
+#portafolio .portafolio_item {
+  opacity: 0;
+  -webkit-animation: de_arriba 0.5s linear forwards;
+          animation: de_arriba 0.5s linear forwards;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
+}
+
+@-webkit-keyframes de_arriba {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes de_arriba {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 #portafolio .portafolio_item .portafolio_info h3 {
@@ -1057,7 +1126,7 @@ body.dark #contact .contact-content .icons .row .info .sub-title {
 -------------------------------------------------------
 */
 footer {
-  padding: 20px 0 20px;
+  padding: 20px 0 10px;
   background: #f1f1f1;
 }
 
@@ -1087,6 +1156,37 @@ footer .social a {
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  opacity: 0;
+  -webkit-animation: slide_left 0.5s linear forwards;
+          animation: slide_left 0.5s linear forwards;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
+}
+
+@-webkit-keyframes slide_left {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide_left {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 footer .social .what {
@@ -1178,7 +1278,7 @@ body.dark footer hr {
 footer .matt-style {
   text-align: center;
   color: #333;
-  margin: 10px;
+  margin: 10px 10px 0;
 }
 
 body.dark footer .matt-style {

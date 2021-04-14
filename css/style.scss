@@ -228,6 +228,10 @@ body {
         right: 15%;
         top: 20%;
         animation: ani01 5s linear infinite;
+
+        &:hover {
+            border: 2px solid rgb(255, 0, 51);
+        }
     }
 
     @keyframes cuadritos {
@@ -694,6 +698,26 @@ body {
         text-align: center;
 
         .filter_item {
+            // Animaciones nuewvos de  css agregado
+            opacity: 0;
+            animation: de_lado 0.5s linear forwards;
+            animation-delay: calc(0.2s * var(--i));
+
+            @keyframes de_lado {
+                0% {
+                    transform: translateY(100px);
+                    opacity: 0;
+                }
+
+                100% {
+                    transform: translateY(0px);
+                    opacity: 1;
+                }
+            }
+
+            // ==============================================
+
+
             body.dark & {
                 color: $grisClaro;
             }
@@ -757,6 +781,25 @@ body {
     }
 
     .portafolio_item {
+        opacity: 0;
+        animation: de_arriba 0.5s linear forwards;
+        animation-delay: calc(0.2s * var(--i));
+
+        @keyframes de_arriba {
+            0% {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+
+
+
+
         // flex: 0 0 33.33%;
         // max-width: 29.33%;
         // margin-bottom: 30px;
@@ -1030,7 +1073,7 @@ body {
 */
 
 footer {
-    padding: 20px 0 20px;
+    padding: 20px 0 10px;
     background: rgb(241, 241, 241);
 
     body.dark & {
@@ -1053,6 +1096,21 @@ footer {
             font-size: 22px;
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
             transition: all 500ms ease;
+            opacity: 0;
+            animation: slide_left 0.5s linear forwards;
+            animation-delay: calc(0.2s * var(--i));
+        }
+
+        @keyframes slide_left {
+            0% {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0px);
+                opacity: 1;
+            }
         }
 
         /*---------------------------------------------*/
@@ -1153,7 +1211,8 @@ footer {
 
         text-align: center;
         color: #333;
-        margin: 10px;
+        margin: 10px 10px 0;
+
 
         span {
             font-size: 13.2px;
@@ -1194,10 +1253,3 @@ footer {
         font-size: 22px;
     }
 }
-
-
-// @for $i from 1 through 100 {
-//     .animation-#{$i} {
-//       animation-delay: #{$i /10}s;
-//     }
-//   }

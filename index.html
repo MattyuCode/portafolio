@@ -23,6 +23,8 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body>
@@ -168,7 +170,8 @@
                     <div class="col-md-6 column_right">
                         <!-- <div class=""></div> -->
                         <div class="container about_text">
-                            <div class="animate">Soy Mattyu y soy un <span class="typing-2"></span></div>
+                            <div class="animate" data-aos="fade-right" data-aos-duration="1000">Soy Mattyu y soy un
+                                <span class="typing-2"></span></div>
                             <p class="text-justify" data-aos="zoom-in" data-aos-duration="1000">
                                 Disfruto creando cosas que viven en Internet, ya sean sitios web, aplicaciones o
                                 cualquier otra cosa. Mi objetivo es siempre crear productos que proporcionen
@@ -196,10 +199,11 @@
         <!-- -----------------Services------------------------ -->
         <section id="service" class="service">
             <div class="container ">
-                <h1 class="text-center titulo">Mis<span> Servicios</span></h1>
+                <h1 class="text-center titulo" data-aos="zoom-in" data-aos-duration="2100">Mis<span> Servicios</span>
+                </h1>
                 <!-- <div class="services_content"> -->
                 <div class="row services_content">
-                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai">
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card">
                             <span></span>
                             <span></span>
@@ -215,7 +219,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai">
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai" data-aos="fade-up" data-aos-duration="1600">
                         <div class="card">
                             <span></span>
                             <span></span>
@@ -230,7 +234,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai">
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card">
                             <span></span>
                             <span></span>
@@ -246,7 +250,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai">
+                    <div class="col-lg-4 col-md-6 col-12 mt-5 contai" data-aos="fade-up" data-aos-duration="2300">
                         <div class="card">
                             <span></span>
                             <span></span>
@@ -272,7 +276,7 @@
                     <div class="col mt-5"> -->
 
                 <!-- HTML -->
-                <div class="card_por">
+                <div class="card_por" data-aos="fade-up" data-aos-duration="1000">
                     <div class="text_box">
                         <div>
                             <div class="porcentaje">
@@ -290,7 +294,7 @@
                 </div>
 
                 <!-- CSS -->
-                <div class="card_por">
+                <div class="card_por" data-aos="fade-up" data-aos-duration="1800">
                     <div class="text_box">
                         <div>
                             <div class="porcentaje">
@@ -308,7 +312,7 @@
                 </div>
 
                 <!-- JAVASCRIPT -->
-                <div class="card_por">
+                <div class="card_por" data-aos="fade-up" data-aos-duration="2100">
                     <div class="text_box">
                         <div>
                             <div class="porcentaje">
@@ -330,17 +334,21 @@
         <!-- ----------------Portafolio---------------------- -->
         <section id="portafolio" class="portafolio">
             <div class="container">
-                <div class="portafolio_title">
+                <div class="portafolio_title" data-aos="zoom-in" data-aos-duration="2100">
                     <h1 class="text-center">Mi<span> Portafolio</span></h1>
                 </div>
                 <hr>
                 <div class="row">
                     <div class="portafolio_filter">
-                        <span class="filter_item outer-shadow  active" data-filter="Todos">Todos</span>
-                        <span class="filter_item outer-shadow" data-filter="pagina-recien">Páginas web nuevo</span>
-                        <span class="filter_item outer-shadow" data-filter="app-movil">Página de aplicaciones</span>
-                        <span class="filter_item outer-shadow" data-filter="pagina-smi">Páginas de SMI</span>
-                        <span class="filter_item outer-shadow" data-filter="paginas-vistos">Páginas vistados</span>
+                        <span class="filter_item outer-shadow  active" style="--i:1;" data-filter="Todos">Todos</span>
+                        <span class="filter_item outer-shadow" style="--i:2;" data-filter="pagina-recien">Páginas web
+                            nuevo</span>
+                        <span class="filter_item outer-shadow" style="--i:3;" data-filter="app-movil">Página de
+                            aplicaciones</span>
+                        <span class="filter_item outer-shadow" style="--i:4;" data-filter="pagina-smi">Páginas de
+                            SMI</span>
+                        <span class="filter_item outer-shadow" style="--i:5;" data-filter="paginas-vistos">Páginas
+                            vistados</span>
                     </div>
                 </div>
 
@@ -348,7 +356,8 @@
                 <div class="row porta">
 
                     <!-- Dragon Ball -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="pagina-recien">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:4;"
+                        data-category="pagina-recien">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://dbsangular.web.app/home">
@@ -366,7 +375,8 @@
                     </div>
 
                     <!-- Sal Negra -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="pagina-smi">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:5;"
+                        data-category="pagina-smi">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://proyect-9fd36.web.app/">
@@ -384,7 +394,7 @@
                     </div>
 
                     <!-- Apps Mattyu Android -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="app-movil">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:6;" data-category="app-movil">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://appsmattyu.web.app/">
@@ -402,7 +412,8 @@
                     </div>
 
                     <!-- Convierte tus sueños -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="paginas-vistos">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:7;"
+                        data-category="paginas-vistos">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://mi-page.netlify.app/">
@@ -420,7 +431,8 @@
                     </div>
 
                     <!-- App Spotify -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="pagina-recien">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:8;"
+                        data-category="pagina-recien">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://spotify-proyect.web.app/#/home">
@@ -439,7 +451,8 @@
                     </div>
 
                     <!-- Animate -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="paginas-vistos">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:9;"
+                        data-category="paginas-vistos">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://mi-page-animation.netlify.app/">
@@ -458,7 +471,8 @@
                     </div>
 
                     <!-- Page stark -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="paginas-vistos">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:10;"
+                        data-category="paginas-vistos">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://mattyucode.web.app/">
@@ -476,7 +490,8 @@
                     </div>
 
                     <!-- Gallery -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="pagina-recien">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:11;"
+                        data-category="pagina-recien">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://annymatt34.web.app/">
@@ -494,7 +509,8 @@
                     </div>
 
                     <!-- Economia -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" data-category="pagina-recien">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 portafolio_item" style="--i:12;"
+                        data-category="pagina-recien">
                         <div class="card card-cascade wider mb-4 portfolio-item-inner">
                             <div class="portfolio-img waves-effect waves-light">
                                 <a target="_blank" href="https://mattyucode.github.io/microeconomia/index.html">
@@ -520,9 +536,9 @@
         <!-- ----------------Contacto---------------------- -->
         <section id="contact" class="contact">
             <div class="container">
-                <h1 class="title">Contácta<span>me</span></h1>
+                <h1 class="title" data-aos="zoom-in" data-aos-duration="2100">Contácta<span>me</span></h1>
                 <div class="contact-content">
-                    <div class="col-md-6 conta-1">
+                    <div class="col-md-6 conta-1" data-aos="zoom-out-right" data-aos-duration="1000">
                         <div class="text-center text">Ponerse en contacto</div>
                         <p>Si quieres información sobre cualquier producto o estás interesado en la distribución,
                             rellena el formulario y me pondré en contacto contigo lo antes posible.
@@ -556,7 +572,7 @@
 
                     <div class="col-md-6 col-12 conta-2">
                         <div class="container">
-                            <form class="text-center border border-light p-5" action="#!">
+                            <form class="text-center border border-light p-5" action="#!" data-aos="zoom-in" data-aos-duration="2000">
                                 <p class=" text-center h4 mb-4">Contáctame</p>
 
                                 <input type="text" name="nombre" id="defaultContactFormName" class="form-control mb-4"
@@ -605,28 +621,31 @@
         <footer class="small bg-black">
             <div class="social d-flex">
                 <!-- justify-content-center -->
-                <a target="_blank" href="https://github.com/MattyuCode" class="mx-2 git">
+                <a target="_blank" style="--i:7;" href="https://github.com/MattyuCode" class="mx-2 git">
                     <i class="fab fa-github"></i>
                 </a>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=50245412844&text=Hola un gusto saludarlo"
+                <a target="_blank" style="--i:6;"
+                    href="https://api.whatsapp.com/send?phone=50245412844&text=Hola un gusto saludarlo"
                     class="mx-2 what">
                     <i class="fab fa-whatsapp"></i>
                 </a>
-                <a target="_blank" href="https://www.youtube.com/channel/UCMekmHf8jji7mEJoZhFajeQ?view_as=subscriber"
+                <a target="_blank" style="--i:5;"
+                    href="https://www.youtube.com/channel/UCMekmHf8jji7mEJoZhFajeQ?view_as=subscriber"
                     class="mx-2 yout">
                     <i class="fab fa-youtube"></i>
                 </a>
-                <a target="_blank" href="https://www.facebook.com/mateo.carmelomendoza" class="mx-2 face">
+                <a target="_blank" style="--i:4;" href="https://www.facebook.com/mateo.carmelomendoza"
+                    class="mx-2 face">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a target="_blank" href="https://twitter.com/MattyuCoder" class="mx-2 twit">
+                <a target="_blank" style="--i:3;" href="https://twitter.com/MattyuCoder" class="mx-2 twit">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a target="_blank" href="http://t.me/mateo_dev34" class="mx-2 tele">
+                <a target="_blank" style="--i:2;" href="http://t.me/mateo_dev34" class="mx-2 tele">
                     <i class="fab fa-telegram-plane"></i>
                 </a>
 
-                <a target="_blank" href="https://www.instagram.com/mattyu.code34/" class="mx-2 insta">
+                <a target="_blank" style="--i:1;" href="https://www.instagram.com/mattyu.code34/" class="mx-2 insta">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
