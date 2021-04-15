@@ -115,6 +115,11 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.514);
 }
 
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background: #333;
+  color: yellow;
+}
+
 .top-nav-collapse {
   background: -webkit-gradient(linear, left top, right top, from(#02061d), to(#003546));
   background: linear-gradient(left, #02061d, #003546);
