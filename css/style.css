@@ -829,7 +829,6 @@ body.dark #portafolio .portafolio_filter .filter_item.active {
 }
 
 #portafolio .portafolio_item {
-  opacity: 0;
   -webkit-animation: de_arriba 0.5s linear forwards;
           animation: de_arriba 0.5s linear forwards;
   -webkit-animation-delay: calc(0.2s * var(--i));

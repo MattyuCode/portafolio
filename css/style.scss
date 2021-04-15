@@ -781,7 +781,6 @@ body {
     }
 
     .portafolio_item {
-        opacity: 0;
         animation: de_arriba 0.5s linear forwards;
         animation-delay: calc(0.2s * var(--i));
 
