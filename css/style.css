@@ -626,6 +626,10 @@ body.dark #about .title::after {
   height: 300px;
 }
 
+#service .services_content .card:hover {
+  background: rgba(10, 190, 255, 0.261);
+}
+
 #service .services_content .card .service_box {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;

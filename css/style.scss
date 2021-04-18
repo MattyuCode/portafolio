@@ -598,6 +598,11 @@ body {
             box-shadow: 0 5px 10px rgba(255, 255, 255, .5);
             height: 300px;
 
+            &:hover {
+                background: hsla(196, 100%, 52%, 0.261);
+                // background: hsla(196, 100%, 52%, 0.131);
+            }
+
             .service_box {
                 transition: all 0.3s ease;
             }
