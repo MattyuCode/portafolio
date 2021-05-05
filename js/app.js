@@ -136,14 +136,14 @@ for (let i = 0; i < totalFilterBtn; i++) {
 */
 
 var typed = new Typed(".typing", {
-    strings: ["YouTuber", "Developer", "Designer", "Freelancer"],
+    strings: ["YouTuber", "Developer", "Designer", "Front-end"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
 });
 
 var typed = new Typed(".typing-2", {
-    strings: ["YouTuber", "Developer", "Designer", "Freelancer"],
+    strings: ["YouTuber", "Developer", "Designer", "Front-end"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
