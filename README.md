@@ -1,3 +1,3 @@
 # portafolio
 
-<img src="img/image002.png" alt="">
+<img src="Captura.PNG" alt="">
