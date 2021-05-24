@@ -15,8 +15,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .card_por {
-    /* background: red; */
     position: relative;
     height: 400px;
     width: 280px;
@@ -26,7 +26,7 @@
     transition: 0.5s;
 }
 
-.card_por  .text_box {
+.card_por .text_box {
     position: relative;
     top: 0;
     left: 0;
@@ -43,7 +43,7 @@
     z-index: 10;
 }
 
-.card_por  .text_box .porcentaje {
+.card_por .text_box .porcentaje {
     position: relative;
     width: 150px;
     height: 150px;
@@ -52,7 +52,7 @@
 }
 
 
-.card_por  .text_box .porcentaje .numero {
+.card_por .text_box .porcentaje .numero {
     position: absolute;
     top: 0;
     left: 0;
@@ -63,22 +63,22 @@
     align-items: center;
 }
 
-.card_por  .text_box .porcentaje .numero h2 {
+.card_por .text_box .porcentaje .numero h2 {
     color: #777;
     font-weight: 700;
     font-size: 50px;
     transition: 0.5s;
 }
 
-.card_por:hover  .text_box .porcentaje .numero h2 {
+.card_por:hover .text_box .porcentaje .numero h2 {
     color: #fff;
 }
 
-.card_por  .text_box .porcentaje .numero span {
+.card_por .text_box .porcentaje .numero span {
     font-size: 25px;
 }
 
-.card_por  .text_circle {
+.card_por .text_circle {
     position: absolute;
     bottom: -42px;
     color: white;
@@ -139,7 +139,7 @@ svg circle {
 
 
 svg circle:nth-child(2) {
-    
+
     stroke-dasharray: 440px;
     stroke-dashoffset: 440px;
 }
