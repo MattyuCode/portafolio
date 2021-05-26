@@ -45,6 +45,7 @@ body {
     &::-webkit-scrollbar{
         display: none;
     }
+    
     transition: background 0.5s;
 
     &.dark {
