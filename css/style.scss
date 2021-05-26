@@ -42,6 +42,9 @@ inset 18px 18px 30px #181313;
 }
 
 body {
+    &::-webkit-scrollbar{
+        display: none;
+    }
     transition: background 0.5s;
 
     &.dark {
