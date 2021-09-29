@@ -42,10 +42,10 @@ inset 18px 18px 30px #181313;
 }
 
 body {
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
         display: none;
     }
-    
+
     transition: background 0.5s;
 
     &.dark {
@@ -727,6 +727,27 @@ body {
 
         .filter_item {
             // Animaciones nuewvos de  css agregado
+
+            // --------esta otra en en html si no funciona en angular-------------
+            // .col-md-6 {
+            //     opacity: 0;
+            //     animation: identifier 0.5s linear forwards;
+            //     animation-delay: calc(0.2s * var(--i));
+
+            //     @keyframes identifier {
+            //       0% {
+            //         transform: translateY(100px);
+            //         opacity: 0;
+            //       }
+
+            //       100% {
+            //         transform: translateY(0px);
+            //         opacity: 1;
+            //       }
+
+            //     }
+            //style="--i:1;"> y se agrega esto en html
+            
             opacity: 0;
             animation: de_lado 0.5s linear forwards;
             animation-delay: calc(0.2s * var(--i));
