@@ -36,6 +36,31 @@ $(document).ready(function () {
     })
 });
 
+
+/*
+// EL codigo de boton Arriba en JavaScript Vanilla
+window.addEventListener("load", function () {
+    const btnArriba = document.querySelector(".btn_arriba");
+    btnArriba.style.display = "none";
+  
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 100) {
+        btnArriba.style.display = "flex";
+        btnArriba.style.opacity = "1";
+      } else {
+        btnArriba.style.display = "none";
+        btnArriba.style.opacity = "0";
+      }
+    });
+  
+    btnArriba.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+  
+*/
+
+
 /*
 ..........................................................
                     JavaScript_ScrollReveal
